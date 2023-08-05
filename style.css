@@ -1,0 +1,42 @@
+body{
+    font-family: 'bebas neue';
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, red , yellow);
+}
+ h1{
+    font: 600 3.5em 'bebas neue';
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+ }
+ h2{
+    font: 900 1em 'bebas neue';
+    color:rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+ }
+
+ .button1{
+    padding: 10px;
+    border: 20px;
+    border-radius: 20px;
+    font-family: bebas neue;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+    transition: 0.7s;
+ }
+
+ .button1:hover{
+    transform: scale(1.2);
+    background-color: rgba(0, 0, 0, 0.738);
+ }
